@@ -26,9 +26,9 @@ ReactDOM.render(wrapApp(App, store), rootEl);
 
 if (module.hot) {
   // flow-disable-next-line
-  module.hot.accept('./components/App', () => {
+  module.hot.accept('./components/app', () => {
     // eslint-disable-next-line global-require
-    const NextApp = require('./components/App').default;
+    const NextApp = require('./components/app').default;
     ReactDOM.render(wrapApp(NextApp, store), rootEl)
   })
 }
