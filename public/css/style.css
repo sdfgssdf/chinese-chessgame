@@ -54,7 +54,10 @@ button{
 .active{
     border-color: blue;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 720px) {
+    body {
+    width: 100%;
+}
     .container {
         width:80%;
         margin: auto;
