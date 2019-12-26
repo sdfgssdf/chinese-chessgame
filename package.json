@@ -33,7 +33,7 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "react": "^16.1.1",
-    "react-dom": "^16.1.1",
+    "react-dom": "^16.2.1",
     "react-hot-loader": "next",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
